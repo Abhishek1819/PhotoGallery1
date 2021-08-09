@@ -1,0 +1,22 @@
+.top-content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.top-content label{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+.photo-gallery{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.photo-gallery .pic{
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+}
